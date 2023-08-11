@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(105, 105, 224);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    max-width: 1200px;
+}
+
+img {
+    width: 10%;
+}
+
+@media screen and (min-width:560px) and (max-width:960px) {
+    body {
+        background-color: brown;
+    }
+    h2 {
+        color: rgb(255, 255, 255);
+    }
+}
